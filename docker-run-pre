@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mkdir -p $MEDIA_DIR
+echo "friendly_name=$FRIENDLY_NAME">>/etc/minidlna.conf
+echo "media_dir=$MEDIA_DIR">>/etc/minidlna.conf
+echo "db_dir=$DB_DIR">>/etc/minidlna.conf
+echo "log_dir=$LOG_DIR">>/etc/minidlna.conf
+echo "inotify=$INOTIFY">>/etc/minidlna.conf
